@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon quizz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Quizz sur Hypérion!</h1>
+
+    <section class="container-global">
+        <form class="form-quizz">
+            <div class="question block">
+                <h4>Qui a écrit Hyperion ?</h4>
+                <div>
+                    <input type="radio" name="q1" id="gaiman" value="a" checked>
+                    <label for="gaiman">Neil gaiman</label>
+                </div>
+                <div>
+                    <input type="radio" name="q1" id="simmons" value="b">
+                    <label for="simmons">Dan Simmons</label>
+                </div>
+                <div>
+                    <input type="radio" name="answer" id="verne" value="c">
+                    <label for="verne">Jules Verne</label>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="container-global">
+        <form class="form-quizz">
+            <div class="question block">
+                <h4>A quel genre littéraire Hypérion appartient t-il ?</h4>
+                <div>
+                    <input type="radio" name="q2" id="poetique" value="a" checked>
+                    <label for="poetique">Poétique</label>
+                </div>
+                <div>
+                    <input type="radio" name="q2" id="theatral" value="b">
+                    <label for="theatral">Théâtral</label>
+                </div>
+                <div>
+                    <input type="radio" name="q2" id="science-fiction" value="c">
+                    <label for="science-fiction">Science-fiction</label>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="container-global">
+        <form class="form-quizz">
+            <div class="question block">
+                <h4>Combien sont les pélerins ?</h4>
+                <div>
+                    <input type="radio" name="q3" id="7" value="a" checked>
+                    <label for="7">7</label>
+                </div>
+                <div>
+                    <input type="radio" name="q3" id="8" value="b">
+                    <label for="8">8</label>
+                </div>
+                <div>
+                    <input type="radio" name="q3" id="9" value="c">
+                    <label for="9">9</label>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section class="container-global">
+        <form class="form-quizz">
+            <div class="question block">
+                <h4>A quelle créature féroce les pélerins vont devoir faire face ?</h4>
+                <div>
+                    <input type="radio" name="q4" id="yeti" value="a" checked>
+                    <label for="yeti">Le yéti</label>
+                </div>
+                <div>
+                    <input type="radio" name="q4" id="gritche" value="b">
+                    <label for="gritche">Le gritche</label>
+                </div>
+                <div>
+                    <input type="radio" name="q4" id="extros" value="c">
+                    <label for="extros">Les extros</label>
+                </div>
+            </div>
+            <button class="btn" type="submit">Validez vos choix</button>
+        </form>
+        <div class="result">
+            <h2>Cliquez sur validez pour voir les résultats.</h2>
+            <p class="aide"></p>
+            <p class="note"></p>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
